@@ -1,0 +1,28 @@
+.PostAdding{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.PostAdding form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.PostAdding button, .PostAdding input, .PostAdding label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.chosenPhoto{
+    background-size: cover;
+	background-position: 50% 50%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	box-shadow: 2px 2px 7px 1px #9B9B9B;
+}
